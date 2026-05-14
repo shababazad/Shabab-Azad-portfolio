@@ -5,7 +5,6 @@ import Particle from "../Particle";
 import movieanalysis from "../../Assets/Projects/movieanalysis.png";
 import worldlayoffcleaning from "../../Assets/Projects/worldlayoffcleaning.png";
 import worldlayoffeda from "../../Assets/Projects/worldlayoffeda.png";
-import sbdirectory from "../../Assets/Projects/sbdirectory.png";
 import tableaudash from "../../Assets/Projects/tableaudash.png";
 
 
@@ -22,16 +21,6 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={sbdirectory}
-              isBlog={false}
-              title="SB-Directory"
-              description="Startup idea sharing platform built with Next.js, Sanity, and Sentry. Allows users to publish startup ideas, manage personal profiles, and explore ideas shared by other entrepreneurs. Features include real-time content updates, startup search functionality, visitor tracking on idea cards, and error monitoring for improved application performance and reliability."
-              ghLink="https://github.com/shababazad/sb-directory"
-              demoLink="https://sb-directory.vercel.app/"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
